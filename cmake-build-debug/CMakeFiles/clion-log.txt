@@ -1,0 +1,4 @@
+/home/lwchong/Downloads/clion-2022.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -S /home/lwchong/CLionProjects/USBTEST -B /home/lwchong/CLionProjects/USBTEST/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lwchong/CLionProjects/USBTEST/cmake-build-debug
