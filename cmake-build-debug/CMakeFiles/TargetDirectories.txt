@@ -1,3 +1,0 @@
-/home/lwchong/CLionProjects/USBTEST/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/lwchong/CLionProjects/USBTEST/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lwchong/CLionProjects/USBTEST/cmake-build-debug/CMakeFiles/USBTEST.dir
