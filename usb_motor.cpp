@@ -40,11 +40,11 @@ my_usb_motor::~my_usb_motor() {
     delete usb_in_cmd;
     delete usb_in_data;
     std::cerr << "[Release devices]\n";
+    out_txt_file.close();
     libusb_free_transfer(transfer_rx);
     libusb_release_interface(device_Handle, 0);
     libusb_close(device_Handle);
     libusb_exit(nullptr);
-    out_txt_file.close();
 }
 
 void my_usb_motor::Deal_in_transfer_data() {
