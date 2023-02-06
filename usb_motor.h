@@ -8,8 +8,9 @@
 #include "libusb-1.0/libusb.h"
 #include "time.h"
 #include "sys/select.h"
-
-
+#include <fstream>
+#include <iomanip>
+extern int8_t stop_experiment;
 typedef struct{
     float q_abad;
     float q_hip;
@@ -20,6 +21,7 @@ typedef struct{
     float c_abad;
     float c_hip;
     float c_knee;
+    int32_t stop_number;
     int32_t checksum;
 } USB_IN_CMD_T;
 
@@ -33,6 +35,7 @@ typedef struct{
     float c_abad;
     float c_hip;
     float c_knee;
+    int32_t stop_number;
 } USB_IN_DATA_T;
 
 void motor_cbf_wrapper(struct libusb_transfer* _transfer);
@@ -60,9 +63,10 @@ private:
     USB_IN_CMD_T * usb_in_cmd;
     USB_IN_DATA_T* usb_in_data;
 
-    const int usb_message_in_length = 40;
-    const int usb_message_in_checklength = 9;
-    const int usb_message_8_2_32 = 10;
+    const int usb_message_in_length = 44;
+    const int usb_message_in_checklength = 10;
+    const int usb_message_8_2_32 = 11;
+    std::ofstream out_txt_file;
 };
 inline void user_delay(const int delay_s, const int delay_us)
 {
