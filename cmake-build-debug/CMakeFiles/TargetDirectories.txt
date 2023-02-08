@@ -1,0 +1,3 @@
+/home/lingwei/git/USB_TEST/cmake-build-debug/CMakeFiles/USBTEST.dir
+/home/lingwei/git/USB_TEST/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lingwei/git/USB_TEST/cmake-build-debug/CMakeFiles/rebuild_cache.dir

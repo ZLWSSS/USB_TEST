@@ -84,10 +84,16 @@ void my_usb_motor::print_rx_data() {
     usb_in_data->q_knee << "] [" << usb_in_data->qd_abad << " "<<usb_in_data->qd_hip << " " << usb_in_data->qd_knee << "] [" <<
     usb_in_data->c_abad << " " << usb_in_data->c_hip << " " <<
     usb_in_data->c_knee << "]\n";
+//    std::cout << "[Motor DATA " << info_id <<"] [" << usb_in_data->q_abad << " " << usb_in_data->q_hip << " " <<
+//              usb_in_data->q_knee << "] [" << usb_in_data->qd_abad << " "<<usb_in_data->qd_hip
+//              << " " << usb_in_data->qd_knee<< "]\n";
     out_txt_file << info_id <<" " << usb_in_data->q_abad << " " << usb_in_data->q_hip << " " <<
                  usb_in_data->q_knee << " " << usb_in_data->qd_abad << " "<<usb_in_data->qd_hip << " "
                  << usb_in_data->qd_knee << " " << usb_in_data->c_abad << " " << usb_in_data->c_hip << " " <<
                  usb_in_data->c_knee << "\n";
+//    out_txt_file << info_id <<" " << usb_in_data->q_abad << " " << usb_in_data->q_hip << " " <<
+//                 usb_in_data->q_knee << " " << usb_in_data->qd_abad << " "<<usb_in_data->qd_hip << " "
+//                 << usb_in_data->qd_knee << "\n";
     if(usb_in_data->stop_number)
     {
         stop_experiment = 1;
