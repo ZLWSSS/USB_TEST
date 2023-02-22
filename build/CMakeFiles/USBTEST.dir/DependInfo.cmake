@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lingwei/git/USB_TEST/main.cpp" "/home/lingwei/git/USB_TEST/build/CMakeFiles/USBTEST.dir/main.cpp.o"
-  "/home/lingwei/git/USB_TEST/usb_imu.cpp" "/home/lingwei/git/USB_TEST/build/CMakeFiles/USBTEST.dir/usb_imu.cpp.o"
-  "/home/lingwei/git/USB_TEST/usb_motor.cpp" "/home/lingwei/git/USB_TEST/build/CMakeFiles/USBTEST.dir/usb_motor.cpp.o"
+  "/home/lwchong/Sirius_git/USB_TEST/main.cpp" "/home/lwchong/Sirius_git/USB_TEST/build/CMakeFiles/USBTEST.dir/main.cpp.o"
+  "/home/lwchong/Sirius_git/USB_TEST/usb_imu.cpp" "/home/lwchong/Sirius_git/USB_TEST/build/CMakeFiles/USBTEST.dir/usb_imu.cpp.o"
+  "/home/lwchong/Sirius_git/USB_TEST/usb_motor.cpp" "/home/lwchong/Sirius_git/USB_TEST/build/CMakeFiles/USBTEST.dir/usb_motor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

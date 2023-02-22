@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/lingwei/git/USB_TEST/main.cpp
+/home/lwchong/Sirius_git/USB_TEST/main.cpp
 usb_imu.h
-/home/lingwei/git/USB_TEST/usb_imu.h
+/home/lwchong/Sirius_git/USB_TEST/usb_imu.h
 usb_motor.h
-/home/lingwei/git/USB_TEST/usb_motor.h
+/home/lwchong/Sirius_git/USB_TEST/usb_motor.h
 chrono
 -
 
-/home/lingwei/git/USB_TEST/usb_imu.cpp
+/home/lwchong/Sirius_git/USB_TEST/usb_imu.cpp
 cstring
 -
 usb_imu.h
-/home/lingwei/git/USB_TEST/usb_imu.h
+/home/lwchong/Sirius_git/USB_TEST/usb_imu.h
 
-/home/lingwei/git/USB_TEST/usb_imu.h
+/home/lwchong/Sirius_git/USB_TEST/usb_imu.h
 unistd.h
 -
 cstdint
@@ -28,13 +28,13 @@ cstdint
 iostream
 -
 libusb-1.0/libusb.h
-/home/lingwei/git/USB_TEST/libusb-1.0/libusb.h
+/home/lwchong/Sirius_git/USB_TEST/libusb-1.0/libusb.h
 
-/home/lingwei/git/USB_TEST/usb_motor.cpp
+/home/lwchong/Sirius_git/USB_TEST/usb_motor.cpp
 usb_motor.h
-/home/lingwei/git/USB_TEST/usb_motor.h
+/home/lwchong/Sirius_git/USB_TEST/usb_motor.h
 
-/home/lingwei/git/USB_TEST/usb_motor.h
+/home/lwchong/Sirius_git/USB_TEST/usb_motor.h
 unistd.h
 -
 cstdint
@@ -44,11 +44,11 @@ iostream
 cstring
 -
 libusb-1.0/libusb.h
-/home/lingwei/git/USB_TEST/libusb-1.0/libusb.h
+/home/lwchong/Sirius_git/USB_TEST/libusb-1.0/libusb.h
 time.h
-/home/lingwei/git/USB_TEST/time.h
+/home/lwchong/Sirius_git/USB_TEST/time.h
 sys/select.h
-/home/lingwei/git/USB_TEST/sys/select.h
+/home/lwchong/Sirius_git/USB_TEST/sys/select.h
 fstream
 -
 iomanip
