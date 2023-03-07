@@ -33,6 +33,8 @@ libusb-1.0/libusb.h
 /home/lwchong/Sirius_git/USB_TEST/usb_motor.cpp
 usb_motor.h
 /home/lwchong/Sirius_git/USB_TEST/usb_motor.h
+string
+-
 
 /home/lwchong/Sirius_git/USB_TEST/usb_motor.h
 unistd.h

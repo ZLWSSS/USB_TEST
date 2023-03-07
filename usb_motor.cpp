@@ -1,6 +1,13 @@
 #include "usb_motor.h"
+#include <string>
 
 int8_t stop_experiment = 0;
+int8_t file_total_number = 26;
+int8_t current_file_id = 0;
+std::string file_name_str;
+std::string file_format = "motor_test_data_";
+std::string file_tail = ".txt";
+int target_number = 1;
 
 my_usb_motor::my_usb_motor(uint16_t _vendor_id, uint16_t _product_id, unsigned char _endpoint_in):
         vendor_id(_vendor_id),product_id(_product_id),endpoint_in(_endpoint_in),info_id(0){
@@ -30,7 +37,8 @@ my_usb_motor::my_usb_motor(uint16_t _vendor_id, uint16_t _product_id, unsigned c
         exit(EXIT_FAILURE);
     }
 
-    out_txt_file.open("motor_feedback_data.txt", std::ios::out | std::ios::trunc);
+    file_name_str = file_format + std::to_string(current_file_id) + file_tail;
+    out_txt_file.open(file_name_str, std::ios::out | std::ios::trunc);
     out_txt_file << std::setprecision(6);
     std::cerr << "[MOTOR USB]: INITIALIZATION SUCCESS!" << std::endl;
 }
@@ -94,9 +102,22 @@ void my_usb_motor::print_rx_data() {
 //    out_txt_file << info_id <<" " << usb_in_data->q_abad << " " << usb_in_data->q_hip << " " <<
 //                 usb_in_data->q_knee << " " << usb_in_data->qd_abad << " "<<usb_in_data->qd_hip << " "
 //                 << usb_in_data->qd_knee << "\n";
-    if(usb_in_data->stop_number)
+    if((usb_in_data->stop_number) == target_number)
     {
-        stop_experiment = 1;
+        target_number = ((target_number == 1) ? 0 : 1);
+        out_txt_file.close();
+        current_file_id++;
+        if(current_file_id == file_total_number)
+        {
+            std::cout << "all data logged: " << current_file_id << "\n";
+            stop_experiment = 1;
+            return;
+        }
+        file_name_str = file_format + std::to_string(current_file_id) + file_tail;
+        out_txt_file.open(file_name_str, std::ios::out | std::ios::trunc);
+        out_txt_file << std::setprecision(6);
+        info_id = 0;
+        std::cout << "Swift to next data logger!\n";
     }
 }
 
