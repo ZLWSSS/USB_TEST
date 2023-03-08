@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "USBTEST::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-USBTEST-Debug-29c467b00fe9154f66ce.json",
+					"jsonFile" : "target-USBTEST-Debug-dab43d4ff1d5d08ed587.json",
 					"name" : "USBTEST",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/lingwei/git/USB_TEST/cmake-build-debug",
-		"source" : "/home/lingwei/git/USB_TEST"
+		"build" : "/home/lwchong/Sirius_git/USB_TEST/cmake-build-debug",
+		"source" : "/home/lwchong/Sirius_git/USB_TEST"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 3
 	}
 }

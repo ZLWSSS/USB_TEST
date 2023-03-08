@@ -7,6 +7,6 @@ set(LINK_DIR /usr/local/lib)
 set(CMAKE_CXX_STANDARD 14)
 include_directories(${INC_DIR})
 link_directories(${LINK_DIR})
-add_executable(USBTEST main.cpp usb_imu.cpp usb_motor.cpp)
+add_executable(USBTEST main.cpp usb_f407.cpp)
 target_link_libraries(USBTEST libusb-1.0.so)
 

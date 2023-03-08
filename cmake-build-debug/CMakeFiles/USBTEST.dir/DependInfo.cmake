@@ -8,9 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lingwei/git/USB_TEST/main.cpp" "CMakeFiles/USBTEST.dir/main.cpp.o" "gcc" "CMakeFiles/USBTEST.dir/main.cpp.o.d"
-  "/home/lingwei/git/USB_TEST/usb_imu.cpp" "CMakeFiles/USBTEST.dir/usb_imu.cpp.o" "gcc" "CMakeFiles/USBTEST.dir/usb_imu.cpp.o.d"
-  "/home/lingwei/git/USB_TEST/usb_motor.cpp" "CMakeFiles/USBTEST.dir/usb_motor.cpp.o" "gcc" "CMakeFiles/USBTEST.dir/usb_motor.cpp.o.d"
+  "/home/lwchong/Sirius_git/USB_TEST/main.cpp" "CMakeFiles/USBTEST.dir/main.cpp.o" "gcc" "CMakeFiles/USBTEST.dir/main.cpp.o.d"
+  "/home/lwchong/Sirius_git/USB_TEST/usb_f407.cpp" "CMakeFiles/USBTEST.dir/usb_f407.cpp.o" "gcc" "CMakeFiles/USBTEST.dir/usb_f407.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -7,20 +7,22 @@
 #IncludeRegexTransform: 
 
 /home/lwchong/Sirius_git/USB_TEST/main.cpp
-usb_imu.h
-/home/lwchong/Sirius_git/USB_TEST/usb_imu.h
-usb_motor.h
-/home/lwchong/Sirius_git/USB_TEST/usb_motor.h
+usb_f407.h
+/home/lwchong/Sirius_git/USB_TEST/usb_f407.h
 chrono
 -
 
-/home/lwchong/Sirius_git/USB_TEST/usb_imu.cpp
+/home/lwchong/Sirius_git/USB_TEST/usb_f407.cpp
+usb_f407.h
+/home/lwchong/Sirius_git/USB_TEST/usb_f407.h
 cstring
 -
-usb_imu.h
-/home/lwchong/Sirius_git/USB_TEST/usb_imu.h
+cstdio
+-
+cstdlib
+-
 
-/home/lwchong/Sirius_git/USB_TEST/usb_imu.h
+/home/lwchong/Sirius_git/USB_TEST/usb_f407.h
 unistd.h
 -
 cstdint
@@ -29,32 +31,6 @@ iostream
 -
 libusb-1.0/libusb.h
 /home/lwchong/Sirius_git/USB_TEST/libusb-1.0/libusb.h
-
-/home/lwchong/Sirius_git/USB_TEST/usb_motor.cpp
-usb_motor.h
-/home/lwchong/Sirius_git/USB_TEST/usb_motor.h
-string
--
-
-/home/lwchong/Sirius_git/USB_TEST/usb_motor.h
-unistd.h
--
-cstdint
--
-iostream
--
-cstring
--
-libusb-1.0/libusb.h
-/home/lwchong/Sirius_git/USB_TEST/libusb-1.0/libusb.h
-time.h
-/home/lwchong/Sirius_git/USB_TEST/time.h
-sys/select.h
-/home/lwchong/Sirius_git/USB_TEST/sys/select.h
-fstream
--
-iomanip
--
 
 /usr/local/include/libusb-1.0/libusb.h
 basetsd.h

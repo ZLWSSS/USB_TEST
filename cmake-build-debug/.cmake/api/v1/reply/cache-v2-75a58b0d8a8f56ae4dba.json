@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/lingwei/git/USB_TEST/cmake-build-debug"
+			"value" : "/home/lwchong/Sirius_git/USB_TEST/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "24"
+			"value" : "22"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,19 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
-		},
-		{
-			"name" : "CMAKE_COLOR_DIAGNOSTICS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable colored diagnostics throughout."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -115,11 +103,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
+					"value" : "Enable/Disable color output during build."
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
+			"type" : "BOOL",
+			"value" : "ON"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -131,7 +119,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/lingwei/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake"
+			"value" : "/home/lwchong/Downloads/clion-2022.1.2/bin/cmake/linux/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -143,7 +131,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/lingwei/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cpack"
+			"value" : "/home/lwchong/Downloads/clion-2022.1.2/bin/cmake/linux/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -155,7 +143,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/lingwei/Downloads/clion-2022.3.1/bin/cmake/linux/bin/ctest"
+			"value" : "/home/lwchong/Downloads/clion-2022.1.2/bin/cmake/linux/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -187,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-7"
+			"value" : "/usr/bin/gcc-ar-5"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -203,7 +191,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-7"
+			"value" : "/usr/bin/gcc-ranlib-5"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -315,7 +303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-7"
+			"value" : "/usr/bin/gcc-ar-5"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -331,7 +319,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-7"
+			"value" : "/usr/bin/gcc-ranlib-5"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -428,6 +416,18 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "CMAKE_DLLTOOL-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_EDIT_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to cache edit program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/lwchong/Downloads/clion-2022.1.2/bin/cmake/linux/bin/ccmake"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -550,18 +550,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake."
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/lingwei/git/USB_TEST/cmake-build-debug/CMakeFiles/pkgRedirects"
-		},
-		{
 			"name" : "CMAKE_GENERATOR",
 			"properties" : 
 			[
@@ -619,7 +607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/lingwei/git/USB_TEST"
+			"value" : "/home/lwchong/Sirius_git/USB_TEST"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -907,7 +895,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/lingwei/Downloads/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24"
+			"value" : "/home/lwchong/Downloads/clion-2022.1.2/bin/cmake/linux/share/cmake-3.22"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1155,7 +1143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/lingwei/git/USB_TEST/cmake-build-debug"
+			"value" : "/home/lwchong/Sirius_git/USB_TEST/cmake-build-debug"
 		},
 		{
 			"name" : "USBTEST_IS_TOP_LEVEL",
@@ -1179,19 +1167,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/lingwei/git/USB_TEST"
-		},
-		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
+			"value" : "/home/lwchong/Sirius_git/USB_TEST"
 		}
 	],
 	"kind" : "cache",

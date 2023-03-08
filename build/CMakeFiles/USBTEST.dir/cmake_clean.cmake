@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/USBTEST.dir/main.cpp.o"
-  "CMakeFiles/USBTEST.dir/usb_imu.cpp.o"
-  "CMakeFiles/USBTEST.dir/usb_motor.cpp.o"
+  "CMakeFiles/USBTEST.dir/usb_f407.cpp.o"
   "USBTEST.pdb"
   "USBTEST"
 )

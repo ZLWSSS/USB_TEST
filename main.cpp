@@ -1,20 +1,15 @@
-#include "usb_imu.h"
-#include "usb_motor.h"
+#include "usb_f407.h"
 #include <chrono>
 
-const USB_IN_DATA_T* local_motor_data;
-const uint16_t vendor_id1 = 0x1111;
-const uint16_t product_id1 = 0x2222;
-const unsigned char endpoint_1 = 0x81;
-
-const uint16_t motor_vendor_id1 = 0x1111;
-const uint16_t motor_product_id1 = 0x2222;
-const unsigned char motor_endpoint_1 = 0x81;
-const unsigned char motor_endpoint_2 = 0x01;
+const usb_f407_in_data * local_motor_data;
+const uint16_t f407_vendor_id = 0x1111;
+const uint16_t f407_product_id = 0x2222;
+const unsigned char f407_endpoint_in = 0x81;
+const unsigned char f407_endpoint_out = 0x01;
 
 int main() {
-    my_usb_motor my_motor_1(motor_vendor_id1,motor_product_id1,motor_endpoint_1);
-    local_motor_data = my_motor_1.get_usb_in_data();
+    my_f407 my_motor_1(f407_vendor_id,f407_product_id,f407_endpoint_in, f407_endpoint_out);
+    local_motor_data = my_motor_1.get_in_data();
 //    std::chrono::steady_clock::time_point t1_usb = std::chrono::steady_clock::now();
 //    my_usb_1.usb_transfer_syc(rx_buf);
 //    my_usb_1.uint8touint32(rx_buf);
@@ -40,8 +35,6 @@ int main() {
 //        std::cout << " [Thread USB Cycle Time] " << time_used.count() << " ms" << std::endl;
         //imu
         libusb_handle_events(my_motor_1.ctx);
-        if(stop_experiment)
-            break;
     }
     return 0;
 }

@@ -150,59 +150,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-usb_imu.o: usb_imu.cpp.o
+usb_f407.o: usb_f407.cpp.o
 
-.PHONY : usb_imu.o
-
-# target to build an object file
-usb_imu.cpp.o:
-	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_imu.cpp.o
-.PHONY : usb_imu.cpp.o
-
-usb_imu.i: usb_imu.cpp.i
-
-.PHONY : usb_imu.i
-
-# target to preprocess a source file
-usb_imu.cpp.i:
-	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_imu.cpp.i
-.PHONY : usb_imu.cpp.i
-
-usb_imu.s: usb_imu.cpp.s
-
-.PHONY : usb_imu.s
-
-# target to generate assembly for a file
-usb_imu.cpp.s:
-	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_imu.cpp.s
-.PHONY : usb_imu.cpp.s
-
-usb_motor.o: usb_motor.cpp.o
-
-.PHONY : usb_motor.o
+.PHONY : usb_f407.o
 
 # target to build an object file
-usb_motor.cpp.o:
-	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_motor.cpp.o
-.PHONY : usb_motor.cpp.o
+usb_f407.cpp.o:
+	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_f407.cpp.o
+.PHONY : usb_f407.cpp.o
 
-usb_motor.i: usb_motor.cpp.i
+usb_f407.i: usb_f407.cpp.i
 
-.PHONY : usb_motor.i
+.PHONY : usb_f407.i
 
 # target to preprocess a source file
-usb_motor.cpp.i:
-	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_motor.cpp.i
-.PHONY : usb_motor.cpp.i
+usb_f407.cpp.i:
+	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_f407.cpp.i
+.PHONY : usb_f407.cpp.i
 
-usb_motor.s: usb_motor.cpp.s
+usb_f407.s: usb_f407.cpp.s
 
-.PHONY : usb_motor.s
+.PHONY : usb_f407.s
 
 # target to generate assembly for a file
-usb_motor.cpp.s:
-	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_motor.cpp.s
-.PHONY : usb_motor.cpp.s
+usb_f407.cpp.s:
+	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_f407.cpp.s
+.PHONY : usb_f407.cpp.s
 
 # Help Target
 help:
@@ -216,12 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... usb_imu.o"
-	@echo "... usb_imu.i"
-	@echo "... usb_imu.s"
-	@echo "... usb_motor.o"
-	@echo "... usb_motor.i"
-	@echo "... usb_motor.s"
+	@echo "... usb_f407.o"
+	@echo "... usb_f407.i"
+	@echo "... usb_f407.s"
 .PHONY : help
 
 

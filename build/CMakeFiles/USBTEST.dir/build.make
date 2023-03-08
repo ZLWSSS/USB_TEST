@@ -81,69 +81,43 @@ CMakeFiles/USBTEST.dir/main.cpp.o.provides: CMakeFiles/USBTEST.dir/main.cpp.o.re
 CMakeFiles/USBTEST.dir/main.cpp.o.provides.build: CMakeFiles/USBTEST.dir/main.cpp.o
 
 
-CMakeFiles/USBTEST.dir/usb_imu.cpp.o: CMakeFiles/USBTEST.dir/flags.make
-CMakeFiles/USBTEST.dir/usb_imu.cpp.o: ../usb_imu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lwchong/Sirius_git/USB_TEST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/USBTEST.dir/usb_imu.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/USBTEST.dir/usb_imu.cpp.o -c /home/lwchong/Sirius_git/USB_TEST/usb_imu.cpp
+CMakeFiles/USBTEST.dir/usb_f407.cpp.o: CMakeFiles/USBTEST.dir/flags.make
+CMakeFiles/USBTEST.dir/usb_f407.cpp.o: ../usb_f407.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lwchong/Sirius_git/USB_TEST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/USBTEST.dir/usb_f407.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/USBTEST.dir/usb_f407.cpp.o -c /home/lwchong/Sirius_git/USB_TEST/usb_f407.cpp
 
-CMakeFiles/USBTEST.dir/usb_imu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/USBTEST.dir/usb_imu.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lwchong/Sirius_git/USB_TEST/usb_imu.cpp > CMakeFiles/USBTEST.dir/usb_imu.cpp.i
+CMakeFiles/USBTEST.dir/usb_f407.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/USBTEST.dir/usb_f407.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lwchong/Sirius_git/USB_TEST/usb_f407.cpp > CMakeFiles/USBTEST.dir/usb_f407.cpp.i
 
-CMakeFiles/USBTEST.dir/usb_imu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/USBTEST.dir/usb_imu.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lwchong/Sirius_git/USB_TEST/usb_imu.cpp -o CMakeFiles/USBTEST.dir/usb_imu.cpp.s
+CMakeFiles/USBTEST.dir/usb_f407.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/USBTEST.dir/usb_f407.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lwchong/Sirius_git/USB_TEST/usb_f407.cpp -o CMakeFiles/USBTEST.dir/usb_f407.cpp.s
 
-CMakeFiles/USBTEST.dir/usb_imu.cpp.o.requires:
+CMakeFiles/USBTEST.dir/usb_f407.cpp.o.requires:
 
-.PHONY : CMakeFiles/USBTEST.dir/usb_imu.cpp.o.requires
+.PHONY : CMakeFiles/USBTEST.dir/usb_f407.cpp.o.requires
 
-CMakeFiles/USBTEST.dir/usb_imu.cpp.o.provides: CMakeFiles/USBTEST.dir/usb_imu.cpp.o.requires
-	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_imu.cpp.o.provides.build
-.PHONY : CMakeFiles/USBTEST.dir/usb_imu.cpp.o.provides
+CMakeFiles/USBTEST.dir/usb_f407.cpp.o.provides: CMakeFiles/USBTEST.dir/usb_f407.cpp.o.requires
+	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_f407.cpp.o.provides.build
+.PHONY : CMakeFiles/USBTEST.dir/usb_f407.cpp.o.provides
 
-CMakeFiles/USBTEST.dir/usb_imu.cpp.o.provides.build: CMakeFiles/USBTEST.dir/usb_imu.cpp.o
-
-
-CMakeFiles/USBTEST.dir/usb_motor.cpp.o: CMakeFiles/USBTEST.dir/flags.make
-CMakeFiles/USBTEST.dir/usb_motor.cpp.o: ../usb_motor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lwchong/Sirius_git/USB_TEST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/USBTEST.dir/usb_motor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/USBTEST.dir/usb_motor.cpp.o -c /home/lwchong/Sirius_git/USB_TEST/usb_motor.cpp
-
-CMakeFiles/USBTEST.dir/usb_motor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/USBTEST.dir/usb_motor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lwchong/Sirius_git/USB_TEST/usb_motor.cpp > CMakeFiles/USBTEST.dir/usb_motor.cpp.i
-
-CMakeFiles/USBTEST.dir/usb_motor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/USBTEST.dir/usb_motor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lwchong/Sirius_git/USB_TEST/usb_motor.cpp -o CMakeFiles/USBTEST.dir/usb_motor.cpp.s
-
-CMakeFiles/USBTEST.dir/usb_motor.cpp.o.requires:
-
-.PHONY : CMakeFiles/USBTEST.dir/usb_motor.cpp.o.requires
-
-CMakeFiles/USBTEST.dir/usb_motor.cpp.o.provides: CMakeFiles/USBTEST.dir/usb_motor.cpp.o.requires
-	$(MAKE) -f CMakeFiles/USBTEST.dir/build.make CMakeFiles/USBTEST.dir/usb_motor.cpp.o.provides.build
-.PHONY : CMakeFiles/USBTEST.dir/usb_motor.cpp.o.provides
-
-CMakeFiles/USBTEST.dir/usb_motor.cpp.o.provides.build: CMakeFiles/USBTEST.dir/usb_motor.cpp.o
+CMakeFiles/USBTEST.dir/usb_f407.cpp.o.provides.build: CMakeFiles/USBTEST.dir/usb_f407.cpp.o
 
 
 # Object files for target USBTEST
 USBTEST_OBJECTS = \
 "CMakeFiles/USBTEST.dir/main.cpp.o" \
-"CMakeFiles/USBTEST.dir/usb_imu.cpp.o" \
-"CMakeFiles/USBTEST.dir/usb_motor.cpp.o"
+"CMakeFiles/USBTEST.dir/usb_f407.cpp.o"
 
 # External object files for target USBTEST
 USBTEST_EXTERNAL_OBJECTS =
 
 USBTEST: CMakeFiles/USBTEST.dir/main.cpp.o
-USBTEST: CMakeFiles/USBTEST.dir/usb_imu.cpp.o
-USBTEST: CMakeFiles/USBTEST.dir/usb_motor.cpp.o
+USBTEST: CMakeFiles/USBTEST.dir/usb_f407.cpp.o
 USBTEST: CMakeFiles/USBTEST.dir/build.make
 USBTEST: CMakeFiles/USBTEST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lwchong/Sirius_git/USB_TEST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable USBTEST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lwchong/Sirius_git/USB_TEST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable USBTEST"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/USBTEST.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,8 +126,7 @@ CMakeFiles/USBTEST.dir/build: USBTEST
 .PHONY : CMakeFiles/USBTEST.dir/build
 
 CMakeFiles/USBTEST.dir/requires: CMakeFiles/USBTEST.dir/main.cpp.o.requires
-CMakeFiles/USBTEST.dir/requires: CMakeFiles/USBTEST.dir/usb_imu.cpp.o.requires
-CMakeFiles/USBTEST.dir/requires: CMakeFiles/USBTEST.dir/usb_motor.cpp.o.requires
+CMakeFiles/USBTEST.dir/requires: CMakeFiles/USBTEST.dir/usb_f407.cpp.o.requires
 
 .PHONY : CMakeFiles/USBTEST.dir/requires
 

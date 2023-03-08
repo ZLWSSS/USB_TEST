@@ -3,14 +3,9 @@
 
 CMakeFiles/USBTEST.dir/main.cpp.o
  /home/lwchong/Sirius_git/USB_TEST/main.cpp
- /home/lwchong/Sirius_git/USB_TEST/usb_imu.h
- /home/lwchong/Sirius_git/USB_TEST/usb_motor.h
+ /home/lwchong/Sirius_git/USB_TEST/usb_f407.h
  /usr/local/include/libusb-1.0/libusb.h
-CMakeFiles/USBTEST.dir/usb_imu.cpp.o
- /home/lwchong/Sirius_git/USB_TEST/usb_imu.cpp
- /home/lwchong/Sirius_git/USB_TEST/usb_imu.h
- /usr/local/include/libusb-1.0/libusb.h
-CMakeFiles/USBTEST.dir/usb_motor.cpp.o
- /home/lwchong/Sirius_git/USB_TEST/usb_motor.cpp
- /home/lwchong/Sirius_git/USB_TEST/usb_motor.h
+CMakeFiles/USBTEST.dir/usb_f407.cpp.o
+ /home/lwchong/Sirius_git/USB_TEST/usb_f407.cpp
+ /home/lwchong/Sirius_git/USB_TEST/usb_f407.h
  /usr/local/include/libusb-1.0/libusb.h
